@@ -8,7 +8,7 @@ public class IntToEng {
         int input = sc.nextInt();
         System.out.println(translateEng(input));
 	}
-	
+	 
 	static String translateEng(int n) {
 		String[] num = String.valueOf(n).split("");
 		String ichinokurai;
